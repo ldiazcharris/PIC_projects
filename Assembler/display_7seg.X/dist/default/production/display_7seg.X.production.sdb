@@ -1,0 +1,96 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F2450 ]
+[d frameptr 4065 ]
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"12 C:\PIC_projects\Assembler\display_7seg.X\display_7seg.c
+[v _to_7seg to_7seg `(uc  1 s 1 to_7seg ]
+"22
+[v _print_7seg print_7seg `(v  1 e 1 0 ]
+"78 C:\PIC_projects\Assembler\display_7seg.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"2118 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f2450.h
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+"2262
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"2443
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+"2608
+[v _PORTE PORTE `VEuc  1 e 1 @3972 ]
+"3135
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+[s S24 . 1 `uc 1 PCFG 1 0 :4:0 
+`uc 1 VCFG 1 0 :2:4 
+]
+"4773
+[s S27 . 1 `uc 1 PCFG0 1 0 :1:0 
+`uc 1 PCFG1 1 0 :1:1 
+`uc 1 PCFG2 1 0 :1:2 
+`uc 1 PCFG3 1 0 :1:3 
+`uc 1 VCFG0 1 0 :1:4 
+`uc 1 VCFG1 1 0 :1:5 
+]
+[s S34 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CHSN3 1 0 :1:3 
+`uc 1 VCFG01 1 0 :1:4 
+`uc 1 VCFG11 1 0 :1:5 
+]
+[u S39 . 1 `S24 1 . 1 0 `S27 1 . 1 0 `S34 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES39  1 e 1 @4033 ]
+"4 C:\PIC_projects\Assembler\display_7seg.X\display_7seg.c
+[v _ac_vector ac_vector `[17]uc  1 s 17 ac_vector ]
+"10
+[v _error error `uc  1 s 1 error ]
+"78 C:\PIC_projects\Assembler\display_7seg.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"84
+[v main@cont cont `uc  1 a 1 8 ]
+"97
+} 0
+"22 C:\PIC_projects\Assembler\display_7seg.X\display_7seg.c
+[v _print_7seg print_7seg `(v  1 e 1 0 ]
+{
+[v print_7seg@port port `uc  1 a 1 wreg ]
+"24
+[v print_7seg@caracter caracter `uc  1 a 1 5 ]
+"22
+[v print_7seg@port port `uc  1 a 1 wreg ]
+[v print_7seg@num num `uc  1 p 1 1 ]
+"24
+[v print_7seg@port port `uc  1 a 1 4 ]
+"46
+} 0
+"12
+[v _to_7seg to_7seg `(uc  1 s 1 to_7seg ]
+{
+[v to_7seg@hex hex `uc  1 a 1 wreg ]
+[v to_7seg@hex hex `uc  1 a 1 wreg ]
+"15
+[v to_7seg@hex hex `uc  1 a 1 0 ]
+"20
+} 0
